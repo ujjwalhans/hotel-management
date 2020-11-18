@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    width:100%;
+    background-color: #333;
+    color: white;
+    height: 80px;
+    
+}
+.navigation{
+    display: flex;
+    padding: 0%;
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    }
+.logo{
+    width: auto;
+    font-size: 30px;
+    font-weight:600;
+    margin: 0%;
+}
+.logo a{
+    text-decoration: none;
+    color:white;
+}
+.links{
+display: flex;
+height: 100%;
+margin-right: 3%;
+align-items: center;
+width:350px;
+}
+.link{
+margin:0%;
+display: block;
+text-align: center;
+width:33%;
+font-size: 18px;
+height: 100%;
+padding-top: 26px;
+}
+.link a{
+    text-decoration: none;
+    color: cornsilk;
+    display:inline-block;
+
+}
+.links :hover ,.select{
+    background-color: rgb(129, 127, 127);
+    color: #f7c08a;
+}
+
+.first_look{
+    background: url(./images/firstlook.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 15%;
+    padding-top: 15%;
+}
+.content{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    top: 35%;
+}
+.tagline{
+    font-size: 70px;
+    font-weight: 650;
+    display: inline-flex;
+    color: white;
+}
+.orange{
+    color: #f7c08a;
+}
+.desc{
+    color: white;
+    font-size: 27px;
+    padding: 15px;
+}
+.btn input{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(48, 45, 45);
+    border:none;
+    padding: 25px;
+    border-radius: 10px;
+}
+.history_block{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: rgb(48, 45, 45);
+}
+.history_block .img{
+    background: url("./images/photo-1.jpg") no-repeat center/cover;
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+.history{
+    width:50%;
+}
+.history_head{
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 5%;
+    width: 60%;
+    margin-left: 20%;
+
+}
+p{
+    display:inline;
+}
+.history_desc{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+}
+.btn1 input{
+    font-size: 25px;
+    color: black;
+    background-color: #F4F4F4;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 40%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.hotel_features{
+    
+    display:flex;
+}
+.hotel_feature{
+    height:100%;
+    width:33%;
+    padding:50px;
+    background: #F4F4F4;
+    text-align: center;
+}
+.two{
+    background-color: #f7c08a;
+}
+.footer{
+    background-color: rgb(48, 45, 45);
+    text-align: center;
+    color: white;
+    display: block;
+}
+.footer p{
+    margin-top: 34px;
+    display: inline-block;
+}
+
+.heading{
+    width: 100%;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.form_container{
+    width: 70%;
+    display: inline-block;
+    margin-left: 15%;
+    text-align: left;
+}
+
+form{
+    width:100%;
+    display: inline-block;
+    text-align: left;
+}
+.form_container p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: block;
+}
+.label{
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.name_input input,.email_input input,.message_input textarea{
+    border: 1px solid;
+    width: 100%;
+    box-shadow: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-color: rgba(112, 120, 131, 0.568);
+}
+.form_submit button{
+    background-color: rgb(48, 45, 45);
+    border: none;
+    color: white;
+    width: 200px;
+    text-align: center;
+    display: block;
+    height: 52px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+.contact_info{
+    display: flex;
+}
+.location,.phone_number,.email{
+    width: 33%;
+    height:100%
+}
+.container1{
+    height: auto;
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.left,.right{
+    width:50%
+}
+.container1 p{
+    display: block;
+}
+.right .img{
+    background-image: url(./images/photo-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin: auto;
+}
+.container2{
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+.container2 h1{
+    font-size: -webkit-xxx-large;
+    color: white;
+    
+}
+.review{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background-color: #E5B383;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.review_img img{
+    width: 90%;
+    border-radius: 50%;
+}
+.rev{
+    margin: auto;
+    text-align: justify;
+}
+@media screen and (max-width: 480px) {
+    .navigation,.history_block,.hotel_features,.container1,.contact_info{
+        flex-direction: column;
+    }
+    .history,.hotel_feature,.left,.right,.location,.email,.phone_number {
+        width: 100%;
+    }
+    .tagline{
+        display: inline;
+    }
+    .history_block .img{
+        width: 100%;
+        height: 400px;
+    }
+    .btn1 input{
+        margin-left: 30%;
+    }
+    .header{
+        height: 114px;
+    }
+    
+}

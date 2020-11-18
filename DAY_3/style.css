@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: "Google Sans", Roboto, arial, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image:url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(162, 224, 162);
+}
+.about_panel{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin: auto;
+    
+}
+.about_panel .about_card {
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 120px;
+    padding: 10px;
+    box-shadow:8px 8px 20px rgb(136, 134, 134);
+    border-radius: 20px;
+    background: white;
+}
+
+
+.about_panel .about_card .about_desc {
+    color: rgb(112, 112, 182);
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+.about_panel .about_card hr {
+    width: 90px;
+    height: 1px;
+    background: rgb(162, 224, 162);
+    border: none;
+}
+
+.about_panel .about_card .about_btn  {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.blue {
+    background: rgb(41, 134, 177);
+}
+.green {
+    background:rgb(162, 224, 162);
+}
+button {
+    width: 60%;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    color: white;
+}
+
+.green:hover{
+    background-color: rgb(209, 255, 209);
+}
+
+.blue:hover
+{
+    background-color: rgb(136, 136, 238);
+}
+
+.cards{
+    width:70%;
+    height: 100%;
+    margin: auto;
+    float :left;
+}
+
+
+.cards .card {
+    background: white;
+    float: left;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px rgb(136, 134, 134);
+    padding-bottom: 10px;
+}
+
+
+.cards .card .title {
+    text-align: center;
+    background-color: rgb(81, 189, 231);
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.cards .card .image {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cards .card .image img {
+    width: 100px;
+    height: 120px;
+}
+
+.cards .card .btn {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+
